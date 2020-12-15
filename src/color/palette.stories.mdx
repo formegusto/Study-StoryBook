@@ -1,0 +1,18 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+import palette from './palette';
+
+<Meta title="Design System|EvenTech/Palette" />
+
+## Palette
+EvenTech Color List
+----
+
+<ColorPalette>
+    <ColorItem title="palette.white" subtitle="하얀색" colors={[palette.white]} />
+    <ColorItem title="palette.footer" subtitle="푸터" colors={[palette.footer]} />
+    <ColorItem title="palette.border" subtitle="인풋,버튼 테두리" colors={[palette.border]} />
+    <ColorItem title="palette.primary" subtitle="주조색" colors={[palette.primary]} />
+    <ColorItem title="palette.sub" subtitle="보조색" colors={[palette.sub]} />
+    <ColorItem title="palette.danger" subtitle="위험 또는 알림" colors={[palette.danger]} />
+    <ColorItem title="palette.link" subtitle="링크" colors={[palette.link]} />
+</ColorPalette>
